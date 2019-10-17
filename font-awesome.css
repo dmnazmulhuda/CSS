@@ -1,0 +1,23 @@
+
+
+/*FontAwesome Font Weights
+    Solid   = 900
+    Regular = 400
+    Brands  = 400
+*/
+
+/*FontAwesome Font Families
+    Solid   = Font Awesome 5 Free
+    Regular = Font Awesome 5 Free
+    Brands  = Font Awesome 5 Brands
+*/
+
+/*CSS MarkUp*/
+.class:before {
+    content: '\f017';
+    /* font-family: 'Font Awesome 5 Brands'; If using Brand */
+    font-family: 'Font Awesome 5 Free';
+    /* font-weight: 400;  If using Brands or Regular */
+    font-weight: 900;
+}
+
