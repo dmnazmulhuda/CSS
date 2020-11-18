@@ -1,0 +1,9 @@
+/** get content from attribute **/
+
+/* HTML Attribute */
+<span data-content="this is content"></span>
+
+/* get after content from attribute */ 
+.selector:after {
+    content: attr(data-content);
+}
