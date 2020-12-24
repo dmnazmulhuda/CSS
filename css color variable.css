@@ -1,0 +1,13 @@
+/** CSS Color Variable and rgb Color/Background Color Variable with alpha **/
+
+/* Variable Declare */
+:root {
+    --color: #79CC52;
+    --color-rgb: 121, 204, 82;
+}
+
+/* Variable Call */
+.selector {
+    color: var(--primary-color, #79CC52);
+    background: rgba(var(--color-rgb), 0.5);
+}
