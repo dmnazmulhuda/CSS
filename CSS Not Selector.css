@@ -1,0 +1,10 @@
+
+/* For Input type */
+input:not([type="submit"]) {
+    width: 100% !important;
+}
+
+/* For Pseudo Selector */
+input:not(:focus) {
+    border-color: #80808029;
+}
